@@ -3,12 +3,10 @@
 This repository contains MATLAB exercises and practical sessions focusing on various topics related to "Signals and Systems."
 
 ### PRACTICE 1: Signals in MatLab
-- Signal representation.
-- Energy and power in a given interval.
-- Basic signals, periodicity.
-- Symmetries under inversion.
-- Exponential and sinusoidal signals.
-- Interconnection, properties.
+1. Signal representation (discrete and continuous).
+2. Energy and power in a given interval.
+3. Symmetries under inversion.
+4. Exponential and sinusoidal signals.
 
 ### PRACTICE 2: Periodicity
 - Frequency range of discrete periodic exponentials.

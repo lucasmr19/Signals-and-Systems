@@ -1,6 +1,6 @@
 % In this exercise, using the f_get_period function from "Useful
 % functions", we are going to study the periodicity of the periodic signals
-% summation.
+% addition.
 
 % Clearing the workspace, closing all figures, and clearing the command window
 clear;

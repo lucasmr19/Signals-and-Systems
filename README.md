@@ -17,11 +17,11 @@ This repository contains MATLAB exercises and practical sessions focusing on var
 ### PRACTICE 2: Periodicity
 - **Useful functions:**
     - `f_test_period`: returns true if the *discrete* signal has the specified period and false otherwise.
-    - `f_get_period`: returns the fundamental period \(N_0 \in \mathbb{Z}^+\) of a *discrete* signal. If the signal is non-periodic, it returns 0.
-- **Exercise 1:** Study the evolution of \(w_0, N_0\) of a discrete cosine signal.
-- **Exercise 2:** Study the evolution of \(w_0, N_0\) of a discrete sine signal.
-- **Exercise 3:** Study the evolution of \(w_0, N_0\) of a discrete complex exponential signal.
-- **Exercise 4:** Compare the evolution of \(T_0 \in \mathbb{R}, N_0 \in \mathbb{Z}^+\) of continuous and discrete signals.
+    - `f_get_period`: returns the fundamental period $N_0 \in \mathbb{Z}^+$ of a *discrete* signal. If the signal is non-periodic, it returns 0.
+- **Exercise 1:** Study the evolution of $w_0, N_0$ of a discrete cosine signal.
+- **Exercise 2:** Study the evolution of $w_0, N_0$ of a discrete sine signal.
+- **Exercise 3:** Study the evolution of $w_0, N_0$ of a discrete complex exponential signal.
+- **Exercise 4:** Compare the evolution of $T_0 \in \mathbb{R^+}, N_0 \in \mathbb{Z}^+$ of continuous and discrete signals.
 - **Exercise 5:** Study the periodicity of the discrete periodic signals addition using the `f_get_period` function.
 - **Exercise 6:** Study the periodicity of the discrete periodic signals multiplication using the `f_get_period` function.
 

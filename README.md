@@ -3,10 +3,11 @@
 This repository contains MATLAB exercises and practical sessions focusing on various topics related to "Signals and Systems."
 
 ### PRACTICE 1: Signals in MatLab
-1. Signal representation (discrete and continuous).
-2. Energy and power in a given interval.
-3. Symmetries under inversion.
-4. Exponential and sinusoidal signals.
+1. exercise 1: Signal representation. Stem command for discrete signals and plot command for contniuous signals
+2. exerxise 2: Symmetries under inversion.
+3. Energy and power in a given interval.
+4. 
+5. Exponential and sinusoidal signals.
 
 ### PRACTICE 2: Periodicity
 - Frequency range of discrete periodic exponentials.

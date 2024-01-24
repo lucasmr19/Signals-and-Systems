@@ -8,22 +8,22 @@ This repository contains MATLAB exercises and practical sessions focusing on var
     - [`get_Energy_x_t`](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201a/Useful%20functions/get_Energy_x_t.m): returns the energy of a continuous given signal $x(t), t \in \mathbb{R}$.
     - [`get_Energy_x_n`](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/Useful%20functions/get_Energy_x_n.m): returns the energy of a discrete given signal $x[n], n \in \mathbb{Z}$.
     - [`get_Power`](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/Useful%20functions/get_Power.m): returns the power of a given signal.
-- **Exercise 1:** Signal representation (`stem` command for discrete signals and `plot` command for continuous signals).
-- **Exercise 2:** Signal transformations (inversions and shiftings).
-- **Exercise 3:** Signal decompositions into even and odd parts using the `decompose_even_odd` function.
-- **Exercise 4:** Complex signal representation (using MATLAB commands `real`, `imag`, `abs`, `angle`).
-- **Exercise 5:** Arithmetic operations with signals (use the `.` operator for element-wise operations).
+- [**Exercise 1:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_1.m) Signal representation (`stem` command for discrete signals and `plot` command for continuous signals).
+- [**Exercise 2:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_2.m) Signal transformations (inversions and shiftings).
+- [**Exercise 3:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_3.m) Signal decompositions into even and odd parts using the `decompose_even_odd` function.
+- [**Exercise 4:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_4.m) Complex signal representation (using MATLAB commands `real`, `imag`, `abs`, `angle`).
+- [**Exercise 5:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_5.m) Arithmetic operations with signals (use the `.` operator for element-wise operations).
 
 ### PRACTICE 2: Periodicity
-- **Useful functions:**
-    - `f_test_period`: returns true if the *discrete* signal has the specified period and false otherwise.
-    - `f_get_period`: returns the fundamental period $N_0 \in \mathbb{Z}^+$ of a *discrete* signal. If the signal is non-periodic, it returns 0.
-- [**Exercise 1](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_1.m):** Study the evolution of $w_0, N_0$ of a discrete cosine signal.
-- **Exercise 2:** Study the evolution of $w_0, N_0$ of a discrete sine signal.
-- **Exercise 3:** Study the evolution of $w_0, N_0$ of a discrete complex exponential signal.
-- **Exercise 4:** Compare the evolution of $T_0 \in \mathbb{R^+}, N_0 \in \mathbb{Z}^+$ of continuous and discrete signals.
-- **Exercise 5:** Study the periodicity of the discrete periodic signals addition using the `f_get_period` function.
-- **Exercise 6:** Study the periodicity of the discrete periodic signals multiplication using the `f_get_period` function.
+- [**Useful functions:**](https://github.com/lucasmr19/Signals-and-Systems/tree/main/Practice%202/Useful%20functions)
+    - [`f_test_period`](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%202/Useful%20functions/f_test_period.m): returns true if the *discrete* signal has the specified period and false otherwise.
+    - [`f_get_period`](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%202/Useful%20functions/f_get_period.m): returns the fundamental period $N_0 \in \mathbb{Z}^+$ of a *discrete* signal. If the signal is non-periodic, it returns 0.
+- [**Exercise 1:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%202/exercise_1.m) Study the evolution of $w_0, N_0$ of a discrete cosine signal.
+- [**Exercise 2:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%202/exercise_2.m) Study the evolution of $w_0, N_0$ of a discrete sine signal.
+- [**Exercise 3:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%202/exercise_3.m) Study the evolution of $w_0, N_0$ of a discrete complex exponential signal.
+- [**Exercise 4:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%202/exercise_4.m) Compare the evolution of $T_0 \in \mathbb{R^+}, N_0 \in \mathbb{Z}^+$ of continuous and discrete signals.
+- [**Exercise 5:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%202/exercise_5.m) Study the periodicity of the discrete periodic signals addition using the `f_get_period` function.
+- [**Exercise 6:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%202/exercise_6.m) Study the periodicity of the discrete periodic signals multiplication using the `f_get_period` function.
 
 ### PRACTICE 3: Convolution
 - Convolution of discrete signals.

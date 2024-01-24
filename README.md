@@ -1,18 +1,18 @@
-# Signals and Systems - MATLAB© Practices
+# **Signals and Systems - MATLAB© Practices**
 
 This repository contains MATLAB exercises and practical sessions focusing on various topics related to "Signals and Systems".
 
 ### PRACTICE 1: Signals in MATLAB
-- Useful functions:
+- **Useful functions:**
     - `decompose_even_odd`: returns the even and odd parts of a given signal.
-    - `get_Energy_x_t`: returns the energy of a continuous given signal \(x(t), t \in \mathbb{R}\).
-    - `get_Energy_x_n`: returns the energy of a discrete given signal \(x[n], n \in \mathbb{Z}\).
+    - `get_Energy_x_t`: returns the energy of a continuous given signal $x(t), t \in \mathbb{R}$.
+    - `get_Energy_x_n`: returns the energy of a discrete given signal $x[n], n \in \mathbb{Z}$.
     - `get_Power`: returns the power of a given signal.
-- Exercise 1: Signal representation (`stem` command for discrete signals and `plot` command for continuous signals).
-- Exercise 2: Signal transformations (inversions and shiftings).
-- Exercise 3: Signal decompositions into even and odd parts using the `decompose_even_odd` function.
-- Exercise 4: Complex signal representation (using MATLAB commands `real`, `imag`, `abs`, `angle`).
-- Exercise 5: Arithmetic operations with signals (use the `.` operator for element-wise operations).
+- **Exercise 1:** Signal representation (`stem` command for discrete signals and `plot` command for continuous signals).
+- **Exercise 2:** Signal transformations (inversions and shiftings).
+- **Exercise 3:** Signal decompositions into even and odd parts using the `decompose_even_odd` function.
+- **Exercise 4:** Complex signal representation (using MATLAB commands `real`, `imag`, `abs`, `angle`).
+- **Exercise 5:** Arithmetic operations with signals (use the `.` operator for element-wise operations).
 
 ### PRACTICE 2: Periodicity
 - Frequency range of discrete periodic exponentials.

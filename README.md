@@ -3,15 +3,16 @@
 This repository contains MATLAB exercises and practical sessions focusing on various topics related to "Signals and Systems."
 
 ### PRACTICE 1: Signals in MatLab
-- Useful functions: we going to create differents functions:
+- Useful functions:
     - decompose_even_odd: return the even and odd parts of a given signal.
-    - get_Energy_x_t: return the energy of a continuous signal $x(t), t \in \mathbb{R}$ 
-    - get_Energy_x_t: return the energy of a discrete signal $x[n], n \in \mathbb{Z}$ 
-1. exercise 1: Signal representation. Stem command for discrete signals and plot command for contniuous signals
-2. exercise 2: Symmetries under inversion.
-3. Energy and power in a given interval.
-4. 
-5. Exponential and sinusoidal signals.
+    - get_Energy_x_t: return the energy of a continuous given signal $x(t), t \in \mathbb{R}$.
+    - get_Energy_x_t: return the energy of a discrete given signal $x[n], n \in \mathbb{Z}$.
+    - get_Power: return the power of a given signal.
+- exercise 1: Signal representation (`stem` command for discrete signals and `plot` command for contniuous signals).
+- exercise 2: Signal transformations (Inversions and shiftings).
+- exercise 3: Signal decompositions in his even and odd parts.
+- exercise 4: Complex signal representation (using the matlab commands `real`, `imag`, `abs`, `angle`).
+- exercise 4: Arithmetic operations with signals ( we use the `.` operator for element-wise operations).
 
 ### PRACTICE 2: Periodicity
 - Frequency range of discrete periodic exponentials.

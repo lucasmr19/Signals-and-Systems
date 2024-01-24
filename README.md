@@ -15,9 +15,15 @@ This repository contains MATLAB exercises and practical sessions focusing on var
 - **Exercise 5:** Arithmetic operations with signals (use the `.` operator for element-wise operations).
 
 ### PRACTICE 2: Periodicity
-- Frequency range of discrete periodic exponentials.
-- Periodicity in discrete-time signals (Comparison of discrete vs. continuous signals).
-- Periodicity checking function, periodicity calculation function.
+- **Useful functions:**
+    - `f_test_period`: returns true if the *discrete* signal has the specified period, and false otherwise.
+    - `f_get_period`: returns the fundamental period %N_0\in \mathbb{Z^+}$ of a *discrete* signal. If the signal is non-periodic, it returns 0.
+- **Exercise 1:** Study the evolution of %w_0, N_0$ of a discrete cosine signal.
+- **Exercise 2:** Study the evolution of %w_0, N_0$ of a discrete sine signal.
+- **Exercise 3:** Study the evolution of %w_0, N_0$ of a discrete complex exponential signal.
+- **Exercise 4:** Compare the evolution of %T_0\in \mathbb{R}, N_0\in \mathbb{Z^+}$ of constinuous and discreets signals
+- **Exercise 5:** Study the periodicity of the discreets periodic signals addition using the `f_get_period` function.
+- **Exercise 6:** Study the periodicity of the discreets periodic signals multiplication using the `f_get_period` function.
 
 ### PRACTICE 3: Convolution
 - Convolution of discrete signals.

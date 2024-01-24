@@ -3,11 +3,11 @@
 This repository contains MATLAB exercises and practical sessions focusing on various topics related to "Signals and Systems".
 
 ### PRACTICE 1: Signals in MATLAB
-- **Useful functions:**
-    - `decompose_even_odd`: returns the even and odd parts of a given signal.
-    - `get_Energy_x_t`: returns the energy of a continuous given signal $x(t), t \in \mathbb{R}$.
-    - `get_Energy_x_n`: returns the energy of a discrete given signal $x[n], n \in \mathbb{Z}$.
-    - `get_Power`: returns the power of a given signal.
+- [**Useful functions:**](https://github.com/lucasmr19/Signals-and-Systems/tree/main/Practice%201/Useful%20functions)
+    - [`decompose_even_odd`](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/Useful%20functions/decompose_even_odd.m): returns the even and odd parts of a given signal.
+    - [`get_Energy_x_t`](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201a/Useful%20functions/get_Energy_x_t.m): returns the energy of a continuous given signal $x(t), t \in \mathbb{R}$.
+    - [`get_Energy_x_n`](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/Useful%20functions/get_Energy_x_n.m): returns the energy of a discrete given signal $x[n], n \in \mathbb{Z}$.
+    - [`get_Power`](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/Useful%20functions/get_Power.m): returns the power of a given signal.
 - **Exercise 1:** Signal representation (`stem` command for discrete signals and `plot` command for continuous signals).
 - **Exercise 2:** Signal transformations (inversions and shiftings).
 - **Exercise 3:** Signal decompositions into even and odd parts using the `decompose_even_odd` function.
@@ -18,7 +18,7 @@ This repository contains MATLAB exercises and practical sessions focusing on var
 - **Useful functions:**
     - `f_test_period`: returns true if the *discrete* signal has the specified period and false otherwise.
     - `f_get_period`: returns the fundamental period $N_0 \in \mathbb{Z}^+$ of a *discrete* signal. If the signal is non-periodic, it returns 0.
-- [**Exercise 1:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_1.m) Study the evolution of $w_0, N_0$ of a discrete cosine signal.
+- [**Exercise 1](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_1.m):** Study the evolution of $w_0, N_0$ of a discrete cosine signal.
 - **Exercise 2:** Study the evolution of $w_0, N_0$ of a discrete sine signal.
 - **Exercise 3:** Study the evolution of $w_0, N_0$ of a discrete complex exponential signal.
 - **Exercise 4:** Compare the evolution of $T_0 \in \mathbb{R^+}, N_0 \in \mathbb{Z}^+$ of continuous and discrete signals.

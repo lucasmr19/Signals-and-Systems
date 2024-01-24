@@ -8,10 +8,10 @@ This repository contains MATLAB exercises and practical sessions focusing on var
     - [`get_Energy_x_t`](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201a/Useful%20functions/get_Energy_x_t.m): returns the energy of a continuous given signal $x(t), t \in \mathbb{R}$.
     - [`get_Energy_x_n`](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/Useful%20functions/get_Energy_x_n.m): returns the energy of a discrete given signal $x[n], n \in \mathbb{Z}$.
     - [`get_Power`](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/Useful%20functions/get_Power.m): returns the power of a given signal.
-- [**Exercise 1:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_1.m) Signal representation (`stem` command for discrete signals and `plot` command for continuous signals).
+- [**Exercise 1:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_1.m) Signal representation ([`stem`](https://www.mathworks.com/help/matlab/ref/stem.html) command for discrete signals and [`plot`](https://www.mathworks.com/help/matlab/ref/plot.html) command for continuous signals).
 - [**Exercise 2:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_2.m) Signal transformations (inversions and shiftings).
 - [**Exercise 3:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_3.m) Signal decompositions into even and odd parts using the `decompose_even_odd` function.
-- [**Exercise 4:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_4.m) Complex signal representation (using MATLAB commands `real`, `imag`, `abs`, `angle`).
+- [**Exercise 4:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_4.m) Complex signal representation (using MATLAB commands [`real`](https://es.mathworks.com/help/matlab/ref/real.html), [`imag`](https://es.mathworks.com/help/matlab/ref/imag.html), [`abs`](https://es.mathworks.com/help/matlab/ref/abs.html), [`angle`](https://es.mathworks.com/help/matlab/ref/angle.html)).
 - [**Exercise 5:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_5.m) Arithmetic operations with signals (use the `.` operator for element-wise operations).
 
 ### PRACTICE 2: Periodicity

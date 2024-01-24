@@ -12,7 +12,7 @@ This repository contains MATLAB exercises and practical sessions focusing on var
 - [**Exercise 2:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_2.m) Signal transformations (inversions and shiftings).
 - [**Exercise 3:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_3.m) Signal decompositions into even and odd parts using the `decompose_even_odd` function.
 - [**Exercise 4:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_4.m) Complex signal representation (using MATLAB commands [`real`](https://www.mathworks.com/help/matlab/ref/real.html), [`imag`](https://www.mathworks.com/help/matlab/ref/imag.html), [`abs`](https://www.mathworks.com/help/matlab/ref/abs.html), [`angle`](https://www.mathworks.com/help/matlab/ref/angle.html)).
-- [**Exercise 5:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_5.m) Arithmetic operations with signals (use the `.` operator for element-wise operations).
+- [**Exercise 5:**](https://github.com/lucasmr19/Signals-and-Systems/blob/main/Practice%201/exercise_5.m) Arithmetic operations with signals ([see here](https://www.mathworks.com/help/matlab/matlab_prog/matlab-operators-and-special-characters.html)).
 
 ### PRACTICE 2: Periodicity
 - [**Useful functions:**](https://github.com/lucasmr19/Signals-and-Systems/tree/main/Practice%202/Useful%20functions)

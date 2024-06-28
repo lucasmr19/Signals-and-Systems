@@ -13,7 +13,7 @@ close all;
 clc;
 
 %%
-%
+% a)
 inct = 0.01;
 T = 5;
 t = 0:inct:T-inct;
